@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
-
-const images = [
-  "https://images.unsplash.com/photo-1596726038406-f8461c4f7f9f?auto=format&fit=crop&q=80",
-  "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&q=80",
-  "https://images.unsplash.com/photo-1589156280159-27698a70f29e?auto=format&fit=crop&q=80",
-  "https://images.unsplash.com/photo-1591084728795-1149f32d9866?auto=format&fit=crop&q=80"
+import slide1 from "./slider-1.jpg"
+import slide2 from "./slider-2.jpg"
+import slide3 from "./slider-3.jpg"
+const images = [slide1,slide2,slide3
+ 
+  //images.unsplash.com/photo-1591084728795-1149f32d9866?auto=format&fit=crop&q=80"
 ];
 
 export function BackgroundSlider() {
@@ -13,7 +13,7 @@ export function BackgroundSlider() {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
-    }, 5000); // Change image every 5 seconds
+    }, 3000); // Change image every 5 seconds
 
     return () => clearInterval(interval);
   }, []);
