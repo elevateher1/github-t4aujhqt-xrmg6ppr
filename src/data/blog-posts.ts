@@ -12,7 +12,9 @@ export interface BlogPost {
   date: string;
   readTime: number;
   tags: string[];
+
 }
+
 
 export const blogPosts: BlogPost[] = [
   {
@@ -21,11 +23,11 @@ export const blogPosts: BlogPost[] = [
     excerpt: "Discover how para sports are transforming lives and building confidence in women with disabilities.",
     content: "Para sports have emerged as a powerful tool for empowerment...",
     author: {
-      name: "Grace Wanjiru",
+      name: "Grace ",
       avatar: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&q=80&w=150",
       role: "Founder & Para Triathlete"
     },
-    coverImage: "https://images.unsplash.com/photo-1591084728795-1149f32d9866?auto=format&fit=crop&q=80",
+    coverImage: "./slider-2",
     date: "2024-03-15",
     readTime: 5,
     tags: ["Para Sports", "Empowerment", "Athletics"]
