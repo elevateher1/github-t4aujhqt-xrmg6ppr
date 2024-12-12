@@ -1,3 +1,4 @@
+
 export interface BlogPost {
   id: string;
   title: string;
@@ -24,7 +25,7 @@ export const blogPosts: BlogPost[] = [
     content: "Para sports have emerged as a powerful tool for empowerment...",
     author: {
       name: "Grace ",
-      avatar: "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?auto=format&fit=crop&q=80&w=150",
+      avatar: "./slider-2.png",
       role: "Founder & Para Triathlete"
     },
     coverImage: "./slider-2",
