@@ -12,7 +12,7 @@ export function ShareButtons({ url, title }: ShareButtonsProps) {
   const encodedTitle = encodeURIComponent(title);
 
   const shareUrls = {
-    facebook: `https://www.facebook.com/sharer/sharer.php?u=${encodedUrl}`,
+    facebook: `https://www.facebook.com/profile.php?id=61565542059308`,
     twitter: `https://twitter.com/intent/tweet?url=${encodedUrl}&text=${encodedTitle}`,
     linkedin: `https://www.linkedin.com/sharing/share-offsite/?url=${encodedUrl}`
   };

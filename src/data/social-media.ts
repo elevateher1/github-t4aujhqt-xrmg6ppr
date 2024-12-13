@@ -1,9 +1,9 @@
-import { Facebook, Twitter, Instagram, Youtube, Linkedin } from 'lucide-react';
+import { Facebook as FacebookIcon, Twitter, Instagram, Youtube, Linkedin } from 'lucide-react';
 
 export interface SocialPlatform {
   id: string;
   name: string;
-  icon: typeof Facebook;
+  icon: typeof FacebookIcon;
   url: string;
   handle: string;
   color: string;
@@ -13,8 +13,8 @@ export const socialPlatforms: SocialPlatform[] = [
   {
     id: 'facebook',
     name: 'Facebook',
-    icon: Facebook,
-    url: 'https://facebook.com/elevateher1',
+    icon: FacebookIcon,
+    url: 'https://www.facebook.com/profile.php?id=61565542059308',
     handle: '@elevateher1',
     color: '#1877F2'
   },
@@ -22,7 +22,7 @@ export const socialPlatforms: SocialPlatform[] = [
     id: 'twitter',
     name: 'Twitter',
     icon: Twitter,
-    url: 'https://twitter.com/elevateher1',
+    url: 'https://x.com/levateher',
     handle: '@elevateher1',
     color: '#1DA1F2'
   },
@@ -30,7 +30,7 @@ export const socialPlatforms: SocialPlatform[] = [
     id: 'instagram',
     name: 'Instagram',
     icon: Instagram,
-    url: 'https://instagram.com/elevateher1',
+    url: 'https://www.instagram.com/el_evateher/',
     handle: '@elevateher1',
     color: '#E4405F'
   },
@@ -46,7 +46,7 @@ export const socialPlatforms: SocialPlatform[] = [
     id: 'linkedin',
     name: 'LinkedIn',
     icon: Linkedin,
-    url: 'https://linkedin.com/company/elevateher1',
+    url: 'https://www.linkedin.com/in/elevate-her-b43378327/',
     handle: 'Elevate Her',
     color: '#0A66C2'
   }
