@@ -27,7 +27,7 @@ export const blogPosts: BlogPost[] = [
       avatar: "./images/kenneth-avatar.jpg",
       role: "Founder & Para Triathlete"
     },
-    coverImage: "./images/slider-2.png",
+    coverImage: "https://scontent.fnbo12-1.fna.fbcdn.net/v/t39.30808-6/469043874_122127226760518068_4687664037114395652_n.jpg?stp=dst-jpg_s600x600_tt6&_nc_cat=103&ccb=1-7&_nc_sid=127cfc&_nc_ohc=_5TH5HdHCzQQ7kNvgEDd-s9&_nc_zt=23&_nc_ht=scontent.fnbo12-1.fna&_nc_gid=A61FjrySqKaqXOfGLFNp6ek&oh=00_AYChv2GqiUZFYNNPuzkX5PFJoPOAjAy0bXFKYGBfnaB8mg&oe=6761C826",
     date: "2024-12-12",
     readTime: 5,
     tags: ["Para Sports", "Empowerment", "Athletics"]
@@ -38,12 +38,12 @@ export const blogPosts: BlogPost[] = [
     excerpt: " A Call for Inclusion and Empowerment.",
     content: "On December 3rd, 2024, the world came together to observe the International Day of Persons with Disabilities (IDPD), a day dedicated to promoting awareness and support for the rights and well-being of individuals with disabilities. Established by the United Nations in 1992, IDPD serves as a global reminder of the importance of creating inclusive, accessible environments that remove barriers for persons with disabilities (PWDs), ensuring their full participation in society.", 
     author: {
-      name: "Mary Kimani",
+      name: "kenneth",
       avatar: "",
       role: "Climate Advocate"
     },
-    coverImage: "",
-    date: "2024-03-10",
+    coverImage: "https://scontent.fnbo12-1.fna.fbcdn.net/v/t39.30808-6/469172279_122127226772518068_4713924594185576511_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=105&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeG9aJCtAMiNhKIKcshfxrrP4pw9qrVinZninD2qtWKdmfHfTgLl8WuRxCiDN01kZOIE9LOH0hkjY_it22u1UlHF&_nc_ohc=jfo5LL7fa0cQ7kNvgG9dJH-&_nc_zt=23&_nc_ht=scontent.fnbo12-1.fna&_nc_gid=AXmPmcbGFyAqZq3ThKFT6B6&oh=00_AYBeQdvaeJDME81T-0R-PKNU0v76qTYRZzUeJXl3_sIWgQ&oe=6761F297",
+    date: "2024-12-17",
     readTime: 4,
     tags: ["Climate Justice", "Advocacy", "Sustainability"]
   },
