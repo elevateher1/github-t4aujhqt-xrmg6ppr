@@ -39,10 +39,10 @@ export const blogPosts: BlogPost[] = [
     content: "On December 3rd, 2024, the world came together to observe the International Day of Persons with Disabilities (IDPD), a day dedicated to promoting awareness and support for the rights and well-being of individuals with disabilities. Established by the United Nations in 1992, IDPD serves as a global reminder of the importance of creating inclusive, accessible environments that remove barriers for persons with disabilities (PWDs), ensuring their full participation in society.", 
     author: {
       name: "Mary Kimani",
-      avatar: "https://images.unsplash.com/photo-1589156280159-27698a70f29e?auto=format&fit=crop&q=80&w=150",
+      avatar: "",
       role: "Climate Advocate"
     },
-    coverImage: "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&q=80",
+    coverImage: "",
     date: "2024-03-10",
     readTime: 4,
     tags: ["Climate Justice", "Advocacy", "Sustainability"]
