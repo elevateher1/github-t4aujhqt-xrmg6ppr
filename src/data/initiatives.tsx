@@ -16,9 +16,5 @@ export const initiatives = [
     title: "Caregiver Support",
     description: "Supporting caregivers of children with disabilities through community programs and resources."
   },
-  {
-    icon: Award,
-    title: "Para Athletics",
-    description: "Training and mentorship in para-sports, led by Kenya's only female Para triathlete."
-  }
+ 
 ];
